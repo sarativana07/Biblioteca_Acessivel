@@ -1,0 +1,40 @@
+*/////////////////////////////////////////////////////////////////////*
+							0%
+Passo 0: 
+	Copiar todos ficheiro da pasta "Sistema" para a pasta do servidor 
+	PHP
+
+*/////////////////////////////////////////////////////////////////////*
+							10%
+Passo 1:
+
+	Criar uma base de dados e importar o ficheiro "biblioteca.sql" na pasta 
+	Banco de dados
+
+*/////////////////////////////////////////////////////////////////////*
+							30%
+
+Passo 2:
+	Editar  as configuracoes de acesso a base de dados. Abrir o ficheiro
+	"{sua pasta do passo 0}\model\Config.class.php"
+
+    Consiedere sua Proprias Configuracoes.
+
+    //BASE DE DADOS
+	const BD_HOST = "localhost",
+		  BD_USER = "root",
+		  BD_SENHA = "",
+		  BD_BANCO = "biblioteca",
+		  BD_PREFIX = "mz_",
+		  BD_PORT = "3306";
+
+
+*/////////////////////////////////////////////////////////////////////*
+							90%
+
+Passo 3: 
+		Acessar o sistema atraves de seu navegador. Obrigado!		
+
+*/////////////////////////////////////////////////////////////////////*
+							100%						
+
